@@ -10,6 +10,11 @@
 	<form method="post" action="HelloControllerServlet">
 	Enter Name: <input type="text" name="name">
 	<input type="submit" value="say hello">
+	</form><br>
+	<form method="post" action="CreateBookServlet">
+	Enter title: <input type="text" name="title">
+	Enter author: <input type="text" name="author">
+	<input type="submit" value="create book">
 	</form>
 </body>
 </html>
